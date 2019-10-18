@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        <link rel="stylesheet" type="text/css" href="css/mystyle.css" >
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Suma/Resta dias</title>
 </head>
-<label>Fecha inicial</label><br>
+<body>
+        <table>
+                <tr>
+                    <td class="a">
+        <a href="index.html">Dif dias naturales</a></td>
+        <td class="a"><a href="DifdiasHabiles.html" >Diferencia dias naturales</a></td>
+        <td class="a"><a href="diasHabiles.html"  >Dias habiles entre dos fechas</a></td>
+    </tr>
+</table>
+        <hr>
+    <table>     <td>
+                <label>Fecha inicial</label><br>
                     <input type="date" id="finicial"><br><br>
                 </td>
                
@@ -16,11 +28,16 @@
                 </td>
                 <td> 
                     <input type="button" id="calc" value="Calcular">
+                    <script></script>
                 </td>
                 <td>
                     <label>Diferencia en dias naturales</label><br>
-                    <input type="text" id="diferencia">
-<body>
-    
-</body>
+                    <input type="text" readonly id="diferencia">
+                    
+                </table> 
+               
+                            <hr>
+                       
+                    
+              </body>
 </html>

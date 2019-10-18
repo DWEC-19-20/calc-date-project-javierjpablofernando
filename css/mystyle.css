@@ -4,3 +4,21 @@
 body{
     float:left;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+td.a{
+    background-color: rgba(91, 117, 76, 0.534);
+    
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+    border: 2px solid black;
+}
+table{
+    border: 2px solid black;
+}
+
