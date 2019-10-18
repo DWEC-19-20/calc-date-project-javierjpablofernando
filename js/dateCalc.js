@@ -16,8 +16,10 @@ function calcDate(startdate, days) {
   return número de días naturales entre las dos fechas
 */
 function getDays(startdate, endDate) {
-   return 0;
+  var num=endDate-startdate;
+   return num;
 }
+
 
 /* Función que suma o resta un número de dias hábiles según el valor de operation 
    startdate: objeto Fecha 
@@ -34,6 +36,35 @@ function calcWorkingDate(startdate, days) {
   endDate: objeto Fecha inicio
   return número de días hábiles entre las dos fechas*/
 function getWorkingDays(startdate, endDate) {
-   return 0;
+  var cont=0;
+  var mes = "October";
+  var dia = "17";
+  var anio = "2019";
+  var dias=["dom", "lun", "mar", "mie", "jue", "vie", "sab"];
+  var dt = new Date(mes+' '+dia+', '+anio);
+  var text = "Dia de la semana : " + dias[dt.getUTCDay()];
+  document.getElementById("soluccion2").innerHTML = text;
+  for (var text=startdate; dia<=endDate; dia++){
+    switch (dia){
+      case "Lunes":
+        cont++;
+        break;
+      case "Martes":
+            cont++;
+            break;
+      case "Miercoles":
+                cont++;
+                break;
+      case "Jueves":
+                    cont++;
+                    break;
+      case "Viernes":
+        cont++;
+        break;                         
+    }
+  }
+   return cont;
 }
+
+/*Codigo para POPUPS<a href="/index.html" target="_blank" onClick="window.open(this.href, this.target, 'width=300,height=400'); return false;">*/
 
