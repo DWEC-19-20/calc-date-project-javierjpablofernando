@@ -2,15 +2,15 @@
 
 ## Backlog
 
-1. Cómo usuario querría que la calculadora me permitiera introducir una fecha y un número de días naturales para calcular la fecha que tendría después de sumarle o restarle esos días
+1. // Cómo usuario querría que la calculadora me permitiera introducir una fecha y un número de días naturales para calcular la fecha que tendría después de sumarle o restarle esos días
 
-2. Cómo usuario querría que la calculadora me permitiera introducir dos fechas para calcular el número de días naturales que hay entre ellas
+2. //Cómo usuario querría que la calculadora me permitiera introducir dos fechas para calcular el número de días naturales que hay entre ellas
 
-3. Cómo usuario querría que la calculadora me permitiera introducir una fecha y un número de días *hábiles para calcular la fecha que tendría después de sumarle o restarle esos días
+3. //Cómo usuario querría que la calculadora me permitiera introducir una fecha y un número de días *hábiles para calcular la fecha que tendría después de sumarle o restarle esos días
 
-4. Cómo usuario querría que la calculadora me permitiera introducir dos fechas para calcular el número de días *hábiles que hay entre ellas
+4. //Cómo usuario querría que la calculadora me permitiera introducir dos fechas para calcular el número de días *hábiles que hay entre ellas
 
-5. Cómo usuario querría que la interfaz de la calculadora se abriera en una ventana independiente con un tamaño similar a la calculadora del sistema operativo para poder operar con otros programas a la vez
+5. //¿?¿?¿?¿?¿?// Cómo usuario querría que la interfaz de la calculadora se abriera en una ventana independiente con un tamaño similar a la calculadora del sistema operativo para poder operar     con otros programas a la vez
 
 6. Cómo usuario querría que la interfaz de la calculadora  me permitiera introducir la fecha tanto en modo texto como en formato  calendario para poder escribir rápidamente las fechas
 
