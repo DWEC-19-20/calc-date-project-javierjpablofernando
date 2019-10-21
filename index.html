@@ -34,21 +34,22 @@
 
                 <td>
                     <label>Elige fecha</label><br>
-                    <input type="date" id="inicial"><br><br>
+                    <input type="date" id="fecha"><br><br>
                 </td> 
                 <td>       
                     <label>Cantidad de dias</label><br>
-                    <input type="text" id="sumar"><br><br>
+                    <input type="text" id="dias"><br><br>
                 </td>
                 <td>
-                    <input type="button" id="sum" value="Sumar">
+                    <input type="button" id="sum" value="Sumar" onclick="calcDate()">
+                  
                 </td>
-                <td>
+                <!--<td>
                     <input type="button" id="rest" value="Restar">
-                </td>
+                </td>-->
                 <td>
                     <label>Dif dias naturales</label><br>
-                    <input type="text" readonly id="solucion">
+                    <input+ type="date" readonly id="soluccion">
                 </td>
             </tr><!--
     
@@ -136,6 +137,8 @@
 </table>
 
        
-        
+<script src="js/dateCalc.js"> 
+                    
+</script>  
     </body>
 </html>

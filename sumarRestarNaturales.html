@@ -19,24 +19,28 @@
         <hr>
     <table>     <td>
                 <label>Fecha inicial</label><br>
-                    <input type="date" id="finicial"><br><br>
+                    <input type="date" id="inicio"><br><br>
                 </td>
                
                 <td>
                     <label>Fecha Final</label><br>
-                    <input type="date" id="ffinal"><br><br>
+                    <input type="date" id="fin"><br><br>
                 </td>
                 <td> 
-                    <input type="button" id="calc" value="Calcular">
+                    <input type="button" id="calc" value="Calcular" onclick="getDays()">
                     <script></script>
                 </td>
                 <td>
                     <label>Diferencia en dias naturales</label><br>
-                    <input type="text" readonly id="diferencia">
+                    <input type=" " readonly id="d">
                     
                 </table> 
                
                             <hr>
+
+                <script src="js/dateCalc.js"> 
+                    
+                </script>           
                        
                     
               </body>
