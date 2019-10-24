@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
         <link rel="stylesheet" type="text/css" href="css/mystyle.css" >
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Suma/Resta dias</title>
 </head>
+
+<b><h1>Dif. dias naturales</h1></b>
+
 <body>
+        <!--   APARTADO  2 Cómo usuario querría que la calculadora me permitiera introducir dos fechas para calcular el número de días naturales que hay entre ellas-->
+
         <table>
                 <tr>
                     <td class="a">
-        <a href="index.html">Dif dias naturales</a></td>
-        <td class="a"><a href="DifdiasHabiles.html" >Diferencia dias naturales</a></td>
+        <a href="SumaRestaNaturales.html">Suma/Resta naturales</a></td>
+        <td class="a"><a href="SumaRestaHabiles.html" >Suma/Resta habiles</a></td>
         <td class="a"><a href="diasHabiles.html"  >Dias habiles entre dos fechas</a></td>
     </tr>
 </table>
@@ -34,9 +40,20 @@
                     <label>Diferencia en dias naturales</label><br>
                     <input type=" " readonly id="d">
                     
+                    <tr>
+                        <td>
+                                <input type="button" id="today" value="Today" onclick="today()">
+                        </td>
+                    
+                    
+                            <td>
+                                    <input type="button" id="today" value="Today" onclick="today2()">
+                            </td>
+                        </tr>
+                    <hr>
                 </table> 
                
-                            <hr>
+                           
 
                 <script src="js/dateCalc.js"> 
                     

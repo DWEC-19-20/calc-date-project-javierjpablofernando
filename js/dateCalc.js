@@ -14,14 +14,19 @@ function calcDate(startdate, days) {
   var dias= document.getElementById('dias').value;
   var result = calcDate1(fecha, dias);
   alert(result);
+  
   var date = new Date(fecha.getFullYear(), fecha.getMonth() - 1, fecha.getDate() + parseInt(dias));
-  document.getElementById("soluccion").value = new Date(date.getFullYear() + '-' + date.getMonth() + '-' + date.getDate());
+  document.getElementById("soluccion").value = new Date(date.getFullYear() + '-' + date.getMonth() + '-' + date.getDate()) ;
   return new Date(result).toLocaleDateString("es-ES");
+
 }
+
+
 function calcDate1(startdate, days) {
 
-  var date = new Date(startdate.getFullYear(), startdate.getMonth() - 1, (startdate.getDate() + parseInt(days)));
+  var date = new Date(startdate.getFullYear(), startdate.getMonth(), (startdate.getDate() + parseInt(days)+1));
   alert(new Date(date).toLocaleDateString("es-ES"));
+  document.getElementById("soluccion")=date.getFullYear() + '-' + (date.getMonth()+1) + '-' + date.getDate();
   return new Date(date).toLocaleDateString("es-ES");
 }
 
@@ -61,3 +66,28 @@ function getWorkingDays(startdate, endDate) {
 }
 /*Codigo para POPUPS<a href="/index.html" target="_blank" onClick="window.open(this.href, this.target, 'width=300,height=400'); return false;">*/
 
+function today(startdate, days){
+  
+ var date = new Date();
+ if (document.getElementById("fecha")){
+ document.getElementById("fecha").value =  date.getFullYear() + '-' + (date.getMonth()+1) + '-' + date.getDate();
+ }
+ else if (document.getElementById("finicial2")){
+ document.getElementById("finicial2").value =  date.getFullYear() + '-' + (date.getMonth()+1) + '-' + date.getDate();
+}
+else if(document.getElementById("inicial2")){
+  document.getElementById("inicial2").value =  date.getFullYear() + '-' + (date.getMonth()+1) + '-' + date.getDate();
+}
+else if(document.getElementById("inicio")){
+  document.getElementById("inicio").value =  date.getFullYear() + '-' + (date.getMonth()+1) + '-' + date.getDate();
+}
+}
+function today2(startdate, days){
+  var date= new Date();
+if(document.getElementById("ffinal2")){
+document.getElementById("ffinal2").value =  date.getFullYear() + '-' + (date.getMonth()+1) + '-' + date.getDate();
+}
+else if(document.getElementById("fin")){
+  document.getElementById("fin").value =  date.getFullYear() + '-' + (date.getMonth()+1) + '-' + date.getDate();
+}
+}

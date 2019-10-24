@@ -5,16 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Dias habiles</title>
+    <title>Dias habiles entre dos fechas</title>
 </head>
 <body><!--APARTADO 4 . Cómo usuario querría que la calculadora me permitiera introducir dos 
     fechas para calcular el número de días *hábiles que hay entre ellas-->
+
+    <b><h1>Dif. dias habiles</h1></b>
+
     <table>
             <tr>
                 <td class="a">
-            <a href="sumarRestarNaturales.html">Suma/Resta dias naturales</a></td>
-            <td class="a"><a href="DifdiasHabiles.html" >Diferencia dias habiles</a></td>
-            <td class="a"><a href="index.html">Dif dias naturales</a></td>
+            <a href="SumaRestaNaturales.html">Suma/Resta dias naturales</a></td>
+            <td class="a"><a href="difDiasNaturales.html" >Diferencia dias habiles</a></td>
+            <td class="a"><a href="SumaRestaHabiles.html">Suma/Resta dias habiles</a></td>
     </tr>
     </table>
             <hr>
@@ -36,9 +39,21 @@
                     <label>Diferencia en dias habiles</label><br>
                     <input type="text" readonly id="diferencia">
                 </td>
+                <hr>
+            </tr>
+                <tr>
+                        <td>
+                                <input type="button" id="today" value="Today" onclick="today()">
+                        </td>
+                    
+                    
+                            <td>
+                                    <input type="button" id="today" value="Today" onclick="today2()">
+                            </td>
+                        </tr>
             </tr>
     </table>        
-    <hr>
+    
            
     <script src="js/dateCalc.js"> 
                     
