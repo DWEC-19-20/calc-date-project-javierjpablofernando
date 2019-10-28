@@ -9,26 +9,29 @@
 
 
 function calcDate(startdate, days) { 
-
+  //var resul=document.getElementById("soluccion");
   var fecha= new Date(document.getElementById('fecha').value);
   var dias= document.getElementById('dias').value;
-  var result = calcDate1(fecha, dias);
-  alert(result);
+  //var result = calcDate1(fecha, dias);
+ 
   
-  var date = new Date(fecha.getFullYear(), fecha.getMonth() - 1, fecha.getDate() + parseInt(dias));
-  document.getElementById("soluccion").value = new Date(date.getFullYear() + '-' + date.getMonth() + '-' + date.getDate()) ;
-  return new Date(result).toLocaleDateString("es-ES");
+  var date = new Date(fecha.getFullYear(), fecha.getMonth() +1, fecha.getDate() + parseInt(dias));
 
+
+  var fin=document.getElementById("soluccion").value = date.getDate() + '/' + date.getMonth() + '/' + date.getFullYear();
+  var sup=new Date(fin.getDate()+"/"+fin.getMonth()+"/"+fin.getFullYear());
+  //return new Date(result).toLocaleDateString("es-ES");
+  resul.value=sup;
 }
 
 
-function calcDate1(startdate, days) {
+/*function calcDate1(startdate, days) {
 
   var date = new Date(startdate.getFullYear(), startdate.getMonth(), (startdate.getDate() + parseInt(days)+1));
-  alert(new Date(date).toLocaleDateString("es-ES"));
+  alertalert(new Date(date).toLocaleDateString("es-ES"));
   document.getElementById("soluccion")=date.getFullYear() + '-' + (date.getMonth()+1) + '-' + date.getDate();
   return new Date(date).toLocaleDateString("es-ES");
-}
+}*/
 
 /* Función que recibe dos fechas de tipo Date y devuelva el el número de días naturales que hay entre
   las dos fechas.

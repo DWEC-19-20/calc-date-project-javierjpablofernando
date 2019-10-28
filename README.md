@@ -12,9 +12,9 @@
 
 5. //¿?¿?¿?¿?¿?// Cómo usuario querría que la interfaz de la calculadora se abriera en una ventana independiente con un tamaño similar a la calculadora del sistema operativo para poder operar     con otros programas a la vez
 
-6. Cómo usuario querría que la interfaz de la calculadora  me permitiera introducir la fecha tanto en modo texto como en formato  calendario para poder escribir rápidamente las fechas
+6. //Cómo usuario querría que la interfaz de la calculadora  me permitiera introducir la fecha tanto en modo texto como en formato  calendario para poder escribir rápidamente las fechas
 
-7. Cómo usuario querría que la interfaz de la calculadora  me permitiera dar la opción de añadir la fecha de hoy en el campo fecha inicial y/o fecha final para no tener que consultarlo y escribirlo.
+7. //Cómo usuario querría que la interfaz de la calculadora  me permitiera dar la opción de añadir la fecha de hoy en el campo fecha inicial y/o fecha final para no tener que consultarlo y escribirlo.
 
 8. Cómo usuario querría que todos los resultados se me muestren en la misma pantalla para que pueda operar de nuevo con ellos (por ejemplo sumar 5 días a una fecha, y que a la nueva pueda sumarle otros 5 días, etc etc.)
 
